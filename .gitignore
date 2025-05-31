@@ -1,0 +1,17 @@
+# Ignore .env file
+.env
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
