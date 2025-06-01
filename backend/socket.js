@@ -34,7 +34,7 @@ const socketServer = (server) => {
       }
 
       // Also emit back to sender to update their chat
-      socket.emit('receiveMessage', messageData);
+      // socket.emit('receiveMessage', messageData);
     });
 
     socket.on('disconnect', () => {
